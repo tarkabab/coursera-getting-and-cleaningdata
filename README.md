@@ -79,7 +79,7 @@ The column names of the test and train sets are in the second column of this tab
 
 We are interested in only in the mean and std deviation of measurements.  
 We can filter the column names with grep("mean()|std()", which give us 66 results.  
-That is exactly the number if we combine the feature vector names (the one with XYZ counts 3) with the estimate names (8*3+9)*2 = 66.  
+That is exactly the number if we combine the feature vector names (the one with XYZ counts 3) with the estimate names (8x3+9)x2 = 66.  
 We create a logical vector with the help of the grep, and
 use the logical vector to extract the columns we are interested in.
 
